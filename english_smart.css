@@ -19,3 +19,18 @@ div.result table {
 td {
     text-align: right;
 }
+
+/*文字の調整*/
+#check {
+    font-size: 25px;
+}
+
+div.box_Q input {
+    font-size: 15px;
+    padding: 5px;
+}
+
+footer button {
+    font-size: 17px;
+    padding: 10px 30px;
+}
