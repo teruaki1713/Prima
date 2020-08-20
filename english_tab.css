@@ -1,0 +1,13 @@
+
+div.box {
+    width: 90%;
+    height: 90%;
+}
+
+div.result table {
+    width: 100%;
+}
+
+td {
+    text-align: right;
+}
