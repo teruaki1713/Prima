@@ -34,3 +34,7 @@ footer button {
     font-size: 17px;
     padding: 10px 30px;
 }
+
+form > p {
+    padding: 10px;
+}
