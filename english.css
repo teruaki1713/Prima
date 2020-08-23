@@ -32,6 +32,7 @@ body {
     display: none;
 }
 
+
 /*boxーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
 div.box {
     width: 1000px;
@@ -183,11 +184,28 @@ div.box_Q > main > p {
     height: 100px;
 }
 
+form {
+    display: flex;
+}
+
 div.box_Q input {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
     font-size: 20px;
+}
+
+form > p {
+    color: black;
+    padding: 15px;
+    background: rgb(201, 184, 184);
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: 0.5s;
+}
+
+form > p:hover {
+    background: rgb(236, 231, 231);
 }
 
 /*resultーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
@@ -221,7 +239,7 @@ footer {
 
 footer button {
     display: inline-block;
-    padding: 7px;
+    padding: 7px 15px;
     margin: 10px;
     color: white;
     background: rgba(32,73,105,1);
