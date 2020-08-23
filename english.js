@@ -1,4 +1,3 @@
-
 //内部リンク時の処理---------------------------------------------------------------
 $(function(){
   $('a[href^="#"]').click(function(){
@@ -103,7 +102,19 @@ let words =
  ["affect", "影響を与える"], ["way", "方法"], ["manner", "方法"], ["purpose", "目的"], ["sake", "ため"],
  ["right", "ちょうど"], ["complete", "完全な"], ["hardly", "ほとんど〜ない"], ["nearly", "ほとんど"], ["partly", "ある程度"],
  ["actually", "実は"], ["indeed", "実際に"], ["even", "さえも"], ["exactly", "正確に"], ["gradually", "徐々に"],
- ["therefore", "それゆえに"], ["instead", "代わりに"], ["until", "〜まで"], ["besides", "〜に加えて"], ["except", "〜を除いて"]
+ ["therefore", "それゆえに"], ["instead", "代わりに"], ["until", "〜まで"], ["besides", "〜に加えて"], ["except", "〜を除いて"],//new
+ ["debate","討論"], ["criticize","批判する"], ["accuse","非難する"], ["insist","言い張る"], ["object","反対する"], 
+ ["protest","抗議する"], ["controversial","論争を招く"], ["bound","きっと〜"], ["bet","きっと〜だと思う"], ["congratulate","祝う"], 
+ ["praise","褒める"], ["honor","栄誉"], ["chat","おしゃべりする"], ["refer","言及する"], ["mention","〜について述べる"], 
+ ["convey","伝える"], ["emphasize","強調する"], ["exaggerate","誇張する"], ["reply","返事をする"], ["respond","返答する"], 
+ ["whisper","ささやく"], ["remark","発言"], ["observe","観察する"], ["theory","理論"], ["analysis","分析"], 
+ ["experiment","実験"], ["device","装置"], ["phenomenon","現象"], ["substance","物質"], ["chemical","化学物質"], 
+ ["fuel","燃料"], ["nuclear","原子力の"], ["statistics","統計"], ["pursue","追求する"], ["accomplish","やり遂げる"], 
+ ["overcome","克服する"], ["fulfill","果たす"], ["devote","ささげる"], ["aim","狙う"], ["challenge","難問"], 
+ ["trial","試み"], ["dizzy","めまいがして"], ["pale","青白い"], ["appetite","食欲"], ["starve","とてもお腹が空いている"], 
+ ["mental","精神の"], ["rest","休憩"], ["ache","痛み"], ["surgery","手術"], ["disease","病気"], 
+ ["symptom","病状"], ["cancer","がん"], ["ambulance","救急車"], ["recover","回復する"], ["sore","痛い"], 
+ ["swell","腫れる"], ["cough","咳をする"], ["bleed","出血する"]
  ];
 
  //もう一度ボタンーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
@@ -115,8 +126,13 @@ $(".reset").click(function () {
 	$(".step3").fadeOut();
 	$(".box_Q").fadeOut();
 	$(".result").fadeOut();
+	setTimeout('hid();',500);
 	setTimeout('$(".step1").fadeIn();',500);
 });
+
+function hid() {
+	$(".p0,.p1,.p2").css('display','none');
+}
 
 $(".more").click(function (){
 	more();
@@ -172,7 +188,10 @@ $("#button3_7").click(function () { x = 355; 	y = 400;});
 $("#button3_2_0").click(function () { x = 401; 	y = 458;});
 $("#button3_2_1").click(function () { x = 401; 	y =  458;});
 
-$(".hanni").click(function (){$(".step3").fadeOut(); setTimeout('$(".box_Q").fadeIn();',500);});
+$(".hanni").click(function (){
+	$(".step3").fadeOut();
+	setTimeout('$(".box_Q").fadeIn();',500);
+});
 
 
 $(".part_b").click(function (){ $(".step2").fadeOut(); setTimeout('$(".step3").fadeIn();',500); });
@@ -182,6 +201,13 @@ var ques = question3;
 $("#button2_0").click(function () {ques = question3; $(".step1").fadeOut(); setTimeout('$(".step2").fadeIn();',500);});
 $("#button2_1").click(function () {ques = question2; $(".step1").fadeOut(); setTimeout('$(".step2").fadeIn();',500);});
 //$("#button2_2").click(function () {ques = question1; $(".step1").fadeOut(); setTimeout('$(".step2").fadeIn();',500);});
+
+let ur = "ここで発音を確認できます。";
+let url = 'https://www.google.com/search?rlz=1C5CHFA_enJP892JP892&sxsrf=ALeKk00q8VFxTZwYwqx8jw6cM6r5cc74hQ%3A1598150874115&ei=2thBX8fKBs-JoAT_6LX4DA&q='+ur+'+発音';
+
+$("#ano").click(function (){
+	window.open(url);
+});
 
 //採点ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 let i = 0;
@@ -276,7 +302,9 @@ function question2 ()
 	iq++;
 	i1++;
     $("#QN").text(i1);
-    $("#check").text("問："+words[num2-1][1]);
+	$("#check").text("問：　"+words[num2-1][1]);
+	ur = words[num2-1][0];
+	url = 'https://www.google.com/search?rlz=1C5CHFA_enJP892JP892&sxsrf=ALeKk00q8VFxTZwYwqx8jw6cM6r5cc74hQ%3A1598150874115&ei=2thBX8fKBs-JoAT_6LX4DA&q='+ur+'+発音';
 	$("#WN").text("No."+(num2));
 	answer = words[num2-1][0];
 	document.form.reset();
@@ -300,7 +328,9 @@ function question3 (){
 	i1++;
 	norandom();
     $("#QN").text(i1);
-    $("#check").text("問："+words[random7][1]);
+	$("#check").text("問：　"+words[random7][1]);
+	ur = words[random7][0];
+	url = 'https://www.google.com/search?rlz=1C5CHFA_enJP892JP892&sxsrf=ALeKk00q8VFxTZwYwqx8jw6cM6r5cc74hQ%3A1598150874115&ei=2thBX8fKBs-JoAT_6LX4DA&q='+ur+'+発音';
 	$("#WN").text("No."+(random7+1));
 	answer = words[random7][0];
 	document.form.reset();
@@ -310,7 +340,7 @@ function question3 (){
 
 let random7=0;
 let push=	0;
-let num7=      [];
+let num7=  [];
 let i9=		0;
 let ver=	0;
 let n = num7.length;
@@ -344,3 +374,4 @@ function alert1()
 	if(select1>words.length){alert("最小値が選択可能範囲を超えています");}
     if(select2>words.length){alert("最大値が選択可能範囲を超えています");}
 }
+
