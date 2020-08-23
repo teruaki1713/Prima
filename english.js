@@ -374,4 +374,3 @@ function alert1()
 	if(select1>words.length){alert("最小値が選択可能範囲を超えています");}
     if(select2>words.length){alert("最大値が選択可能範囲を超えています");}
 }
-
