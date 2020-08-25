@@ -237,6 +237,7 @@ div.box_Q input {
     box-sizing: border-box;
     padding: 10px;
     font-size: 20px;
+    outline: none;
 }
 
 form > p {
