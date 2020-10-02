@@ -15,7 +15,7 @@ var hanni = [
   ] , 
 
   [
-    [401,458] , [459,520]
+    [401,458] , [459,520],[521,582],[583,624]
   ]
 ]
 
@@ -386,7 +386,28 @@ $(function(){
    ["impose","課す"], ["access","利用する権利"], ["duty","義務"], ["compulsory","義務的な"], ["responsible","責任がある"],
    ["policy","政策"], ["elect","選ぶ (選挙で)"], ["industry","工業"], ["income","収入"], ["profit","利益"],//510
    ["tax","税金"], ["expense","費用"], ["debt","借金"], ["deposit","預金"], ["charge","料金"],
-   ["wage","賃金"], ["recession","不況"], ["consume","消費する"], ["waste","浪費する"], ["invest","投資する"]
+   ["wage","賃金"], ["recession","不況"], ["consume","消費する"], ["waste","浪費する"], ["invest","投資する"],//520
+   ["import","輸入する"], ["financial","財政的な"], ["hire","雇う(一時的)"], ["employ","雇う"], ["resign","辞職する"],
+   ["qualify","資格がある"], ["assign","割り当てる"], ["occupation","職業"], ["career","職業(経歴)"], ["profession","職業"],
+  ["unemployment","失業"], ["document","書類"], ["department","部門"], ["branch","支店"], ["retail","小売り"],
+  ["system","組織"], ["structure","構造"], ["architecture","建築"], ["construction","建設"], ["function","機能"],
+  ["surface","表面"], ["aspect","側面"], ["edge","端"], ["consist","構成される"], ["compose","構成する"],
+  ["attach","くっつける"], ["connect","つなげる"], ["relate","関連づける"], ["associate","関連づける"], ["stick","貼り付ける"],
+  ["separate","引き離す"], ["thief","泥棒"], ["crime","犯罪"], ["motive","動機"], ["punish","罰する"],
+  ["violate","違反する"], ["legal","合法の"], ["enemy","敵"], ["compete","競争する"], ["defeat","打ち負かす"],
+  ["victim","犠牲者"], ["obstacle","障害"], ["harm","害"], ["invade","侵害する"], ["endanger","危険にさらす"],
+  ["interrupt","中断する"], ["spoil","台無しにする"], ["spectator","観客"], ["relative","親戚"], ["enter","入る"],
+  ["accompany","一緒に行く"], ["departure","出発"], ["destination","目的地"], ["transportation","交通機関"], ["via","経由で"],
+  ["lead","至る"], ["rise","上がる"], ["lower","下げる"], ["flow","流れる"], ["burst","破裂する"],
+  ["crack","割れる"], ["melt","溶ける"],/*！！第九回　テスト*/["progress","進歩"], ["advance","進歩"], ["deal","扱う"],//585
+  ["handle","~を扱う"], ["cope","対処する"], ["treat","〜を扱う"], ["clue","手がかり"], ["restrict","制限する"],
+  ["limit","を制限する"], ["forbid","禁じる"], ["ban","禁止"], ["refuse","断る"], ["reject","拒絶する"],
+  ["persuade","説得して~させる"], ["convince","確信させる"], ["inspire","奮起させる"], ["discourage","やる気をなくさせる"], ["promote","促進する"],
+  ["expand","拡大する"], ["extend","延長する"], ["broaden","〜を広げる"], ["spread","~を広げる"], ["tie","縛る"],
+  ["bind","結びつける"], ["fasten","〜固定する"], ["fix","~を固定する"], ["install","設置する"], ["resist","我慢する"],
+  ["obey","従う"], ["engage","従事する"], ["bump","ぶつかる"], ["crash","激突する"], ["bend","身をかがめる"],
+  ["hug","抱きしめる"], ["stare","じっと見つめる"], ["gaze","見つめる"], ["glance","ちらりと見る"], ["glimpse","〜がちらりと見える"],
+  ["stretch","伸ばす"], ["stumble","つまづく"], ["press","押す"], ["drag","引きづる"],/*第10回*/ 
    ];
 
   
