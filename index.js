@@ -15,7 +15,7 @@ var hanni = [
   ] , 
 
   [
-    [401,458] , [459,520],[521,582],[583,624],[625,666]
+    [401,458] , [459,520],[521,582],[583,624],[625,666],[667,706]
   ]
 ]
 
@@ -389,34 +389,42 @@ $(function(){
    ["wage","賃金"], ["recession","不況"], ["consume","消費する"], ["waste","浪費する"], ["invest","投資する"],//520
    ["import","輸入する"], ["financial","財政的な"], ["hire","雇う(一時的)"], ["employ","雇う"], ["resign","辞職する"],
    ["qualify","資格がある"], ["assign","割り当てる"], ["occupation","職業"], ["career","職業(経歴)"], ["profession","職業"],
-  ["unemployment","失業"], ["document","書類"], ["department","部門"], ["branch","支店"], ["retail","小売り"],
-  ["system","組織"], ["structure","構造"], ["architecture","建築"], ["construction","建設"], ["function","機能"],
-  ["surface","表面"], ["aspect","側面"], ["edge","端"], ["consist","構成される"], ["compose","構成する"],
-  ["attach","くっつける"], ["connect","つなげる"], ["relate","関連づける"], ["associate","関連づける"], ["stick","貼り付ける"],
-  ["separate","引き離す"], ["thief","泥棒"], ["crime","犯罪"], ["motive","動機"], ["punish","罰する"],
-  ["violate","違反する"], ["legal","合法の"], ["enemy","敵"], ["compete","競争する"], ["defeat","打ち負かす"],
-  ["victim","犠牲者"], ["obstacle","障害"], ["harm","害"], ["invade","侵害する"], ["endanger","危険にさらす"],
-  ["interrupt","中断する"], ["spoil","台無しにする"], ["spectator","観客"], ["relative","親戚"], ["enter","入る"],
-  ["accompany","一緒に行く"], ["departure","出発"], ["destination","目的地"], ["transportation","交通機関"], ["via","経由で"],
-  ["lead","至る"], ["rise","上がる"], ["lower","下げる"], ["flow","流れる"], ["burst","破裂する"],
-  ["crack","割れる"], ["melt","溶ける"],/*！！第九回　テスト*/["progress","進歩"], ["advance","進歩"], ["deal","扱う"],//585
-  ["handle","~を扱う"], ["cope","対処する"], ["treat","〜を扱う"], ["clue","手がかり"], ["restrict","制限する"],
-  ["limit","を制限する"], ["forbid","禁じる"], ["ban","禁止"], ["refuse","断る"], ["reject","拒絶する"],
-  ["persuade","説得して~させる"], ["convince","確信させる"], ["inspire","奮起させる"], ["discourage","やる気をなくさせる"], ["promote","促進する"],
-  ["expand","拡大する"], ["extend","延長する"], ["broaden","〜を広げる"], ["spread","~を広げる"], ["tie","縛る"],
-  ["bind","結びつける"], ["fasten","〜固定する"], ["fix","~を固定する"], ["install","設置する"], ["resist","我慢する"],
-  ["obey","従う"], ["engage","従事する"], ["bump","ぶつかる"], ["crash","激突する"], ["bend","身をかがめる"],
-  ["hug","抱きしめる"], ["stare","じっと見つめる"], ["gaze","見つめる"], ["glance","ちらりと見る"], ["glimpse","〜がちらりと見える"],
-  ["stretch","伸ばす"], ["stumble","つまづく"], ["press","押す"], ["drag","引きづる"]/*第10回*/,["lean","寄りかかる"],
-  ["scratch","~をひっかく"], ["bow","おじぎする"], ["nod","うなずく"], ["sigh","ため息をつく"], ["yawn","あくびをする"],
-  ["bury","~を埋める"], ["perform","~を遂行する"], ["adopt","~を採用する"], ["escape","逃れる"], ["scatter","~をまき散らす"],
-  ["fold","~を折る"], ["hang","~を掛ける"], ["release","~を解放する"], ["strike","~を打つ"], ["beat","〜を打つ"],
-  ["protect","~を守る"], ["twist","~を曲げる"], ["stir","を混ぜる"], ["shake","~を振る"], ["burn","焼ける"],
-  ["skip","~をサボる"], ["expose","~をさらす"], ["dip","~をつける"], ["polish","~を磨く"], ["cheat","ごまかす"],
-  ["attend","~に出席する"], ["participate","参加する"], ["imitate","~をまねる"], ["exist","存在する"], ["arise","生じる"],
-  ["occur","生じる"], ["generate","を生み出す"], ["involve","巻き込まれる"], ["require","~を必要とする"], ["counterpart","対応する"],
-  ["maintain","~を維持する"], ["last","続く"], ["persist","持続する"], ["gain","~を増す"], ["obtain","を得る"],
-  ["acquire","~を習得する"]
+   ["unemployment","失業"], ["document","書類"], ["department","部門"], ["branch","支店"], ["retail","小売り"],
+   ["system","組織"], ["structure","構造"], ["architecture","建築"], ["construction","建設"], ["function","機能"],
+   ["surface","表面"], ["aspect","側面"], ["edge","端"], ["consist","構成される"], ["compose","構成する"],
+   ["attach","くっつける"], ["connect","つなげる"], ["relate","関連づける"], ["associate","関連づける"], ["stick","貼り付ける"],
+   ["separate","引き離す"], ["thief","泥棒"], ["crime","犯罪"], ["motive","動機"], ["punish","罰する"],
+   ["violate","違反する"], ["legal","合法の"], ["enemy","敵"], ["compete","競争する"], ["defeat","打ち負かす"],
+   ["victim","犠牲者"], ["obstacle","障害"], ["harm","害"], ["invade","侵害する"], ["endanger","危険にさらす"],
+   ["interrupt","中断する"], ["spoil","台無しにする"], ["spectator","観客"], ["relative","親戚"], ["enter","入る"],
+   ["accompany","一緒に行く"], ["departure","出発"], ["destination","目的地"], ["transportation","交通機関"], ["via","経由で"],
+   ["lead","至る"], ["rise","上がる"], ["lower","下げる"], ["flow","流れる"], ["burst","破裂する"],
+   ["crack","割れる"], ["melt","溶ける"],/*！！第九回　テスト*/["progress","進歩"], ["advance","進歩"], ["deal","扱う"],//585
+   ["handle","~を扱う"], ["cope","対処する"], ["treat","〜を扱う"], ["clue","手がかり"], ["restrict","制限する"],
+   ["limit","を制限する"], ["forbid","禁じる"], ["ban","禁止"], ["refuse","断る"], ["reject","拒絶する"],
+   ["persuade","説得して~させる"], ["convince","確信させる"], ["inspire","奮起させる"], ["discourage","やる気をなくさせる"], ["promote","促進する"],
+   ["expand","拡大する"], ["extend","延長する"], ["broaden","〜を広げる"], ["spread","~を広げる"], ["tie","縛る"],
+   ["bind","結びつける"], ["fasten","〜固定する"], ["fix","~を固定する"], ["install","設置する"], ["resist","我慢する"],
+   ["obey","従う"], ["engage","従事する"], ["bump","ぶつかる"], ["crash","激突する"], ["bend","身をかがめる"],
+   ["hug","抱きしめる"], ["stare","じっと見つめる"], ["gaze","見つめる"], ["glance","ちらりと見る"], ["glimpse","〜がちらりと見える"],
+   ["stretch","伸ばす"], ["stumble","つまづく"], ["press","押す"], ["drag","引きづる"]/*第10回*/,["lean","寄りかかる"],
+   ["scratch","~をひっかく"], ["bow","おじぎする"], ["nod","うなずく"], ["sigh","ため息をつく"], ["yawn","あくびをする"],
+   ["bury","~を埋める"], ["perform","~を遂行する"], ["adopt","~を採用する"], ["escape","逃れる"], ["scatter","~をまき散らす"],
+   ["fold","~を折る"], ["hang","~を掛ける"], ["release","~を解放する"], ["strike","~を打つ"], ["beat","〜を打つ"],
+   ["protect","~を守る"], ["twist","~を曲げる"], ["stir","を混ぜる"], ["shake","~を振る"], ["burn","焼ける"],
+   ["skip","~をサボる"], ["expose","~をさらす"], ["dip","~をつける"], ["polish","~を磨く"], ["cheat","ごまかす"],
+   ["attend","~に出席する"], ["participate","参加する"], ["imitate","~をまねる"], ["exist","存在する"], ["arise","生じる"],
+   ["occur","生じる"], ["generate","を生み出す"], ["involve","巻き込まれる"], ["require","~を必要とする"], ["counterpart","対応する"],
+   ["maintain","~を維持する"], ["last","続く"], ["persist","持続する"], ["gain","~を増す"], ["obtain","を得る"],
+   ["acquire","~を習得する"]/*第11回*/, ["examine","~を調査する"], ["search","を捜す"], ["reunion","同窓会"], ["scholarship","奨学金"],
+   ["logic","論理"], ["instruction","指示"], ["determine","~を決める"], ["conclude","~と結論を下す"], ["distinguish","~を区別する"],
+   ["classify","~を分類する"], ["estimate","~を推定する"], ["select","~を選ぶ"], ["organize","~をまとめる"], ["recognize","~が誰だかわかる"],
+   ["suppose","~することになっている"], ["assume","~と思い込む"], ["care","気にする"], ["doubt","~を疑う"], ["notice","~に気がついている"],
+   ["aware","気づいている"], ["conscious","意識している"], ["concerned","関心を持っている"], ["regard","'A'を'B'とみなす"], ["commit","~に専念する"],
+   ["memorize","~を暗記する"], ["approve","認める"], ["forgive","~を許す"], ["grant","~を認める"], ["recall","~を思い出す"],
+   ["abandon","~を捨てる"], ["rid","~を処分する"], ["eliminate","~を排除する"], ["relieve","~を取り除く"], ["remove","〜を取り除く"],
+   ["resource","資源"], ["conservation","保護"], ["preserve","~を保護する"], ["disaster","災害"], ["planet","惑星"],
+   ["environment","環境"]
    ];
 
   
