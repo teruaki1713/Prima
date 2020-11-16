@@ -15,7 +15,7 @@ var hanni = [
   ] , 
 
   [
-    [401,458] , [459,520],[521,582],[583,624],[625,666],[667,706]
+    [401,458] , [459,520],[521,582],[583,624],[625,666],[667,706],[707,752]
   ]
 ]
 
@@ -424,7 +424,16 @@ $(function(){
    ["memorize","~を暗記する"], ["approve","認める"], ["forgive","~を許す"], ["grant","~を認める"], ["recall","~を思い出す"],
    ["abandon","~を捨てる"], ["rid","~を処分する"], ["eliminate","~を排除する"], ["relieve","~を取り除く"], ["remove","〜を取り除く"],
    ["resource","資源"], ["conservation","保護"], ["preserve","~を保護する"], ["disaster","災害"], ["planet","惑星"],
-   ["environment","環境"]
+   ["environment","環境"], ["horizon","水平線"], ["agriculture","農業"], ["crop","作物"], ["soil","土"],
+   ["weed","雑草"], ["drown","溺れ死ぬ"], ["leak","漏れる"], ["climate","気候"], ["atmosphere","大気"],
+   ["forecast","予報"], ["thermometer","温度計"], ["humid","湿気が多い"], ["tropical","熱帯の"], ["solar","太陽の"],
+   ["mosquito","蚊"], ["species","種"], ["extinct","絶滅した"], ["feed","~に餌を与える"], ["energetic","活発な"],
+   ["greedy","貪欲な"], ["brave","勇敢な"], ["generous","気前の良い"], ["intellectual","知的な"], ["curious","好奇心が強い"],
+   ["imaginative","想像力豊かな"], ["talkative","おしゃべりの"], ["afford","~する余裕がある"], ["eager","熱心な"], ["selfish","利己的な"],
+   ["aggressive","攻撃的な"], ["cruel","残酷な"], ["addicted","~の中毒になっている"], ["stubborn","頑固な"], ["earnest","真面目な"],
+   ["bold","大胆な"], ["guilty","申し訳なく思う"], ["innocent","無実の"], ["sincere","誠実な"], ["modest","謙虚な"],
+   ["stupid","ばかな"], ["indifferent","無関心で"], ["punctual","時間を守る"], ["coward","臆病者"], ["precise","正確な"],
+   ["accurate","正確な"], ["proper","適切な"]
    ];
 
   
