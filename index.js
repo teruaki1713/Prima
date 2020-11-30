@@ -15,7 +15,7 @@ var hanni = [
   ] , 
 
   [
-    [401,458] , [459,520],[521,582],[583,624],[625,666],[667,706],[707,752]
+    [401,458] , [459,520],[521,582],[583,624],[625,666],[667,706],[707,752],[753,796]
   ]
 ]
 
@@ -433,7 +433,16 @@ $(function(){
    ["aggressive","攻撃的な"], ["cruel","残酷な"], ["addicted","~の中毒になっている"], ["stubborn","頑固な"], ["earnest","真面目な"],
    ["bold","大胆な"], ["guilty","申し訳なく思う"], ["innocent","無実の"], ["sincere","誠実な"], ["modest","謙虚な"],
    ["stupid","ばかな"], ["indifferent","無関心で"], ["punctual","時間を守る"], ["coward","臆病者"], ["precise","正確な"],
-   ["accurate","正確な"], ["proper","適切な"]
+   ["accurate","正確な"], ["proper","適切な"], ["tidy","きちんとした"], ["neat","きちんとした"], ["efficient","能率的な"],
+   ["reasonable","理にかなった"], ["significant","重要な"], ["precious","貴重な"], ["essential","不可欠な"], ["fundamental","根本的な"],
+   ["critical","重大な"], ["serious","深刻な"], ["complex","複雑な"], ["complicated","複雑な"], ["delicate","繊細な"],
+   ["plain","明白な"], ["obvious","明白な"], ["remarkable","注目すべき"], ["outstanding","傑出した"], ["various","さまざまな"],
+   ["diverse","多様な"], ["sort","種"], ["fancy","高級な"], ["marvelous","驚くべき"], ["fabulous","とても素敵な"],
+   ["active","積極的な"], ["positive","前向きな"], ["pure","純粋な"], ["steady","着実な"], ["flexible","柔軟な"],
+   ["ripe","熟した"], ["mature","成熟した"], ["stable","安定した"], ["negative","否定的な"], ["vague","曖昧な"],
+   ["weird","変な"], ["rough","粗い"], ["severe","厳しい"], ["passive","受動的な"], ["vain","無駄に"],
+   ["fake","偽の"], ["risky","危険な"], ["absurd","ばかげた"], ["odd","奇妙な"], ["contrast","対比"],
+   ["valid","妥当な"]
    ];
 
   
