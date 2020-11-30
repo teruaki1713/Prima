@@ -435,7 +435,7 @@ $(function(){
    ["stupid","ばかな"], ["indifferent","無関心で"], ["punctual","時間を守る"], ["coward","臆病者"], ["precise","正確な"],
    ["accurate","正確な"], ["proper","適切な"], ["tidy","きちんとした"], ["neat","きちんとした"], ["efficient","能率的な"],
    ["reasonable","理にかなった"], ["significant","重要な"], ["precious","貴重な"], ["essential","不可欠な"], ["fundamental","根本的な"],
-   ["critical","重大な"], ["serious","深刻な"], ["complex","複雑な"], ["complicated","複雑な"], ["delicate","繊細な"],
+   ["critical","重大な"], ["serious","深刻な"], ["complex","複雑な"], ["complicated","複雑な"], ["delicate","繊細な"],
    ["plain","明白な"], ["obvious","明白な"], ["remarkable","注目すべき"], ["outstanding","傑出した"], ["various","さまざまな"],
    ["diverse","多様な"], ["sort","種"], ["fancy","高級な"], ["marvelous","驚くべき"], ["fabulous","とても素敵な"],
    ["active","積極的な"], ["positive","前向きな"], ["pure","純粋な"], ["steady","着実な"], ["flexible","柔軟な"],
