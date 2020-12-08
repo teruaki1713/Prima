@@ -558,7 +558,6 @@ $(function(){
     // value値を取得する
     before_text = document.getElementById("form").value;
     result = before_text.toLowerCase();
-    console.log(result);
 	  // 表示する
 	  if(result　==　answer)
 	  {
