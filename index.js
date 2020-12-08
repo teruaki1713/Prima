@@ -552,10 +552,13 @@ $(function(){
   let result=	0;
   let $check = 	$("#check");
   let $PN = 	$("#PN");
+  let before_text;
   function getValue()
   {
-	  // value値を取得する
-	  result = document.getElementById("form").value;
+    // value値を取得する
+    before_text = document.getElementById("form").value;
+    result = before_text.toLowerCase();
+    console.log(result);
 	  // 表示する
 	  if(result　==　answer)
 	  {
