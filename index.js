@@ -22,7 +22,7 @@ var hanni = [
 //隠しコマンド
 function DrawAll() {
   for(var consoleNumber = 0; consoleNumber < words.length; consoleNumber++) {
-    console.log(consoleNumber + "-" + words[consoleNumber][0]+" : "+words[consoleNumber][1])
+    console.log(consoleNumber+1 + "-" + words[consoleNumber][0]+" : "+words[consoleNumber][1])
   };
 }
 
