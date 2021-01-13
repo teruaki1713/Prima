@@ -605,7 +605,7 @@ $(function(){
 
       $(".main_4").css("display","none")
       $(".main_5").css("display","block")
-      chart(ok,(select2 - select1 + 1));
+      chart(ok,(select2 - select1 + 1)-ok);
 		  return false;
 	  }
 	  let num2=iq+select1;
@@ -635,7 +635,7 @@ $(function(){
 
       $(".main_4").css("display","none")
       $(".main_5").css("display","block")
-      chart(ok,(select2 - select1 + 1));
+      chart(ok,(select2 - select1 + 1)-ok);
 		  return false;
 	  }
 	  i1++;
