@@ -457,7 +457,15 @@ $(function(){
    ["deserve","~に値する"], ["fragment","破片"], ["ease","簡単さ"], ["range","範囲"], ["scale","規模"],
    ["unique","特有の"], ["particular","ある特定の"], ["general","一般的な"], ["ordinary","平凡な"], ["typical","典型的な"],
    ["account","占める"], ["calculate","~を計算する"], ["measure","~を測る"], ["split","~を割る"], ["volume","容積"],
-   ["proportion","比率"], ["dozen","ダース"], ["amount","量"], ["mass","大量"]
+   ["proportion","比率"], ["dozen","ダース"], ["amount","量"], ["mass","大量"], ["shortage","不足"],
+   ["enormous","莫大な"], ["spare","余分な"], ["arrange","~を手配する"], ["adapt","適応する"], ["match","~と調和する"],
+   ["fit","に合う"], ["emergency","緊急事態"], ["occasion","場合"], ["circumstance","状況"], ["incident","出来事"],
+   ["current","最新の"], ["temporary","一時的な"], ["permanent","永久的な"], ["previous","前の"], ["former","前者"],
+   ["annual","年に1度の"], ["contemporary","現代の"], ["lately","最近"], ["immediately","すぐに"], ["supply","~を供給する"],
+   ["replace","~に取って代わる"], ["exchange","~を交換する"], ["substitute","~の代わりに~を用いる"], ["submit","を提供する"], ["alternative","代わりのもの"],
+   ["deliver","~を配達する"], ["enclose","~を同封する"], ["envelope","封筒"], ["trick","いたずら"], ["load","荷"],
+   ["content","中身"], ["routine","日課"], ["household","所帯"], ["good","商品"], ["luxury","高級"],
+   ["credit","クレジットカード"], ["questionnaire","アンケート"], ["reservation","予約"]
    ];
 
   
