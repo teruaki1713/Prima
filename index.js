@@ -465,7 +465,7 @@ $(function(){
    ["replace","~に取って代わる"], ["exchange","~を交換する"], ["substitute","~の代わりに~を用いる"], ["submit","を提供する"], ["alternative","代わりのもの"],
    ["deliver","~を配達する"], ["enclose","~を同封する"], ["envelope","封筒"], ["trick","いたずら"], ["load","荷"],
    ["content","中身"], ["routine","日課"], ["household","所帯"], ["good","商品"], ["luxury","高級"],
-   ["credit","クレジットカード"], ["questionnaire","アンケート"], ["reservation","予約"]
+   ["credit","クレジット,信頼"], ["questionnaire","アンケート"], ["reservation","予約"]
    ];
 
   
