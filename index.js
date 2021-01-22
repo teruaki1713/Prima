@@ -967,13 +967,17 @@ function swipe() {
 //キーの処理
 window.addEventListener("keydown", handleKeydown);
 
+$(window).keydown(function(e){
+  if(event.shiftKey){
+    if(e.keyCode === 13){
+      DrawAll();
+    }
+  }
+});
+
 function handleKeydown(event){
   // キーコード
   var keyCode = event.keyCode;
-
-  if(32 === keyCode){
-    DrawAll();
-  }
 
   //cases = 1;
 
@@ -1004,9 +1008,3 @@ function handleKeydown(event){
     }
 
 }
-
-
-
-
-
-
