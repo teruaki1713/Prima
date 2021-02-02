@@ -234,7 +234,7 @@ const wordData =
 	[
             ["applause","拍手"],["fuss","大騒ぎ"],["reward","報酬"],["farewell","別れ"],["reception","もてなし,歓迎会"],
             ["hospitality","もてなし,歓迎"],["portion","1盛り"],["laundry","洗濯"],["stain","シミ"],["dye","~を染める"],
-            ["outlet","コンセント"],["nap","昼寝"],["wake","目が覚める"],["vending machine","自動販売機"],["grocery","食料雑貨店"],
+            ["outlet","コンセント"],["nap","昼寝"],["wake","目が覚める"],["vending-machine","自動販売機"],["grocery","食料雑貨店"],
             ["appointment","予約"],["consult","~に相談する"],["register","~を登録する"],["subscribe","定期購読する"],["guarantee","~を保証する"],
             ["wipe","~を拭く"],["sweep","~を掃く"],["transfer","乗り換える"],["divorce","離婚する"],["fate","運命"],
             ["destiny","運命"],["flavor","風味"],["perfume","香り"],["ingredient","材料"],["tender","柔らかい"],
