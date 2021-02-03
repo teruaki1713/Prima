@@ -980,7 +980,7 @@ window.addEventListener("keydown", handleKeydown);
 
 $(window).keydown(function(e){
   if(event.shiftKey){
-    if(e.keyCode === 13){
+    if(e.keyCode === 39){
       DrawAll();
     }
   }
