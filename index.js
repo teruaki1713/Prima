@@ -241,7 +241,18 @@ const wordData =
             ["bitter","苦い"],["aisle","通路"],["track","足跡"],["district","地区"],["facility","施設"],
             ["basement","地下"],["height","高さ"],["distant","遠い"],["remote","へんぴな"],["locate","~に位置している"],
             ["occupy","~を占める"],["surround","~を取り囲む"],["classical","クラシックの"]
-        ]
+        ],
+        [
+            ["civilization","文明"],["heritage","遺産"],["script","台本"],["tale","話"],["literature","文学"],
+            ["tragedy","悲劇"],["poetry","詩"],["biography","伝記"],["term","用語"],["proverb","ことわざ"],
+            ["fluent","流暢な"],["translate","~を翻訳する"],["define","~を定義する"],["interpret","~を解釈する"],["quote","~を引用する"],
+            ["literally","文字どおりに"],["indicate","~を示す"],["reveal","~を明らかにする"],["announce","~を発表する"],["broadcast","~を放送する"],
+            ["prove","~を証明する"],["advertise","~を宣伝する"],["seek","~を求める"],["entertain","~を楽しませる"],["amuse","〜を楽しませる"],
+            ["attract","~を引きつける"],["fascinate","~を魅了する"],["absorb","~に没頭する"],["fond","好きで"],["scare","~をおびえさせる"],
+            ["alarm","~をぎょっとさせる"],["amaze","~を驚かせる"],["irritate","~をいらいらさせる"],["puzzle","~を当惑させる"],["confuse","~を混乱させる"],
+            ["bore","~をうんざりさせる"],["frustrate","~を欲求不満にさせる"],["disappoint","~を失望させる"],["embarrass","~に恥ずかしい思いをさせる"],["ashamed","恥ずかしい"],
+            ["uneasy","不安な"],["hesitate","ためらう"]
+      ]
     ]
 ];
 
