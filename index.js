@@ -252,7 +252,17 @@ const wordData =
             ["alarm","~をぎょっとさせる"],["amaze","~を驚かせる"],["irritate","~をいらいらさせる"],["puzzle","~を当惑させる"],["confuse","~を混乱させる"],
             ["bore","~をうんざりさせる"],["frustrate","~を欲求不満にさせる"],["disappoint","~を失望させる"],["embarrass","~に恥ずかしい思いをさせる"],["ashamed","恥ずかしい"],
             ["uneasy","不安な"],["hesitate","ためらう"]
-      ]
+        ],
+	[
+	    ["reluctant","気が進まない"],["tremble","震える"],["boast","自慢する"],["jealous","嫉妬した"],["envy","~を羨ましく思う"],
+	    ["yell","叫ぶ"],["respect","(人)を尊敬する"],["despair","絶望"],["emotion","感情"],["sympathy","同情"],
+	    ["shame","残念なこと"],["ambition","願望"],["confidence","自信"],["courage","勇気"],["ignore","(人)を無視する"],
+	    ["owe","~は~のおかげだ"],["fear","恐怖"],["method","方法"],["medium","手段"],["means","手段"],
+	    ["extent","程度"],["extremely","極度に"],["total","全体の"],["largely","大部分は"],["moderate","適度な"],
+	    ["somewhat","いくぶん"],["subtle","かすかな"],["possibly","ひょっとすると"],["eventually","最終的に"],["necessarily","必ずしも"],
+	    ["frankly","率直に"],["ironically","皮肉なことに"],["moreover","その上"],["otherwise","さもなければ"],["regardless","無関係に"],
+	    ["worth","~の価値がある"],["according-to","~によれば"]
+        ]
     ]
 ];
 
