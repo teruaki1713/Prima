@@ -21,7 +21,7 @@ const wordData =
             ["stress","ストレス"],["suffer","苦しむ"],["exercise","運動"],["breathe","呼吸する"],["thirsty","喉が渇いた"],
             ["physical","身体的な"],["fever","熱"],["strength","体力"],["tear","涙"],["taste","味がする"],
             ["rule","規則"],["role","役割"],["habit","習慣"],["custom","習慣"],["tradition","伝統"],
-            ["society","社会"],["law","法律"],["ancestor","祖先"],["population","人口"],["native","母国の"]
+            ["society","社会"],["law","法律"],["ancestor","祖先"],["population","人口"],["native","母国の"],
             ["abroad","海外へ"],["local","地元の"],["survey","調査"],["evidence","証拠"],["value","価値"],
             ["treasure","財宝"],["fashion","流行"],["public","公共の"],["vote","投票"],["government","政府"],
             ["nation","国家"],["capital","首都"],["state","州"],["political","政治的な"],["price","価格"],
