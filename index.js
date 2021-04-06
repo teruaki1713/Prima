@@ -21,7 +21,13 @@ const wordData =
             ["stress","ストレス"],["suffer","苦しむ"],["exercise","運動"],["breathe","呼吸する"],["thirsty","喉が渇いた"],
             ["physical","身体的な"],["fever","熱"],["strength","体力"],["tear","涙"],["taste","味がする"],
             ["rule","規則"],["role","役割"],["habit","習慣"],["custom","習慣"],["tradition","伝統"],
-            ["society","社会"],["law","法律"],["ancestor","祖先"],["population","人口"],["native","母国の"],
+            ["society","社会"],["law","法律"],["ancestor","祖先"],["population","人口"],["native","母国の"]
+            ["abroad","海外へ"],["local","地元の"],["survey","調査"],["evidence","証拠"],["value","価値"],
+            ["treasure","財宝"],["fashion","流行"],["public","公共の"],["vote","投票"],["government","政府"],
+            ["nation","国家"],["capital","首都"],["state","州"],["political","政治的な"],["price","価格"],
+            ["cost","費用がかかる"],["sum","金額"],["budget","予算"],["fee","料金"],["fare","運賃"],
+            ["bill","勘定"],["trade","貿易"],["wealth","冨"],["economy","経済"],["company","会社"],
+            ["task","仕事"],["earn","稼ぐ"],["hurt","痛む"],["injure","痛める"],["damage","損害を与える"]
         ],
         [
             ["abroad","海外へ"],["local","地元の"],["survey","調査"],["evidence","証拠"],["value","価値"],
