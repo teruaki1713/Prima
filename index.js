@@ -31,7 +31,7 @@ const wordData =
 	    ["abroad","海外へ"]
         ],
         [
-            ["abroad","海外へ"],["local","地元の"],["survey","調査"],["evidence","証拠"],["value","価値"],
+	    ["local","地元の"],["survey","調査"],["evidence","証拠"],["value","価値"],
             ["treasure","財宝"],["fashion","流行"],["public","公共の"],["vote","投票"],["government","政府"],
             ["nation","国家"],["capital","首都"],["state","州"],["political","政治的な"],["price","価格"],
             ["cost","費用がかかる"],["sum","金額"],["budget","予算"],["fee","料金"],["fare","運賃"],
