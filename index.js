@@ -314,7 +314,7 @@ for (var v=0; v < wordData.length; v++) {
     var part_range2 = [];
     var partsample = ("Part")+(v+1);
 
-    //Part内の配列分
+    //Part内の配列分
     for (var vv = 0; vv < wordData[v].length; vv++) {
 
         //二次元配列化のための配列
